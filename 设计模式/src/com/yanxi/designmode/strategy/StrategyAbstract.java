@@ -7,6 +7,7 @@ public abstract class StrategyAbstract {
 		int[] arrayInt=new int[2];
 		arrayInt[0]=Integer.parseInt(strings[0]);
 		arrayInt[1]=Integer.parseInt(strings[1]);
+		System.out.println(arrayInt);
 		return arrayInt;
 	}
 
